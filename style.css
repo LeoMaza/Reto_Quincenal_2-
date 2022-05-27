@@ -1,0 +1,12 @@
+
+h1{
+    display: flex;
+    place-content: center;
+}
+
+#container{
+    display: grid;
+    place-content: center;
+
+}
+
