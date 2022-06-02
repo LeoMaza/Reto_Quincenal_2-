@@ -9,7 +9,7 @@ function process() {
     let alteracion = document.querySelector("#alteracion").value;
 
     for (let i = 1; i <= 20; i++) {
-        checkboxes.innerHTML += `<label for="checkbox">checkbox Nro. ${i}</label>`
+        checkboxes.innerHTML += `<label id="label2" for="checkbox">Checkbox ${i} </label>`
         if (i % alteracion === 0) {
             checkboxes.innerHTML += `<input type="checkbox" id="check" checked><br>`
         } else {
